@@ -1,0 +1,500 @@
+#mainbg {
+  opacity: 0.7;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#P11 {
+  position: absolute;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
+
+  height: 904px;
+  width: 1450px;
+  top: 3px;
+  left: 3px;
+}
+
+#dp {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  height: 25%;
+  width: 12.37%;
+  border-radius: 35px;
+}
+
+#para {
+  position: absolute;
+  top: 400px;
+  left: 530px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 35px;
+  font-weight: bold;
+
+  color: white;
+}
+#text {
+  position: absolute;
+  left: 470px;
+  top: 530px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: white;
+}
+
+#about {
+  position: absolute;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  left: 1100px;
+  top: 100px;
+}
+
+#gallery {
+  position: absolute;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  left: 1190px;
+  top: 100px;
+}
+
+#contact {
+  position: absolute;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  left: 1300px;
+  top: 100px;
+}
+
+#p1 {
+  position: absolute;
+  font-family: "Times New Roman", Times, serif;
+
+  color: rgb(138, 102, 102);
+  font-size: 30px;
+  word-spacing: 3%;
+  border-style: solid;
+  border-color: rgb(138, 102, 102);
+
+  border-radius: 25%;
+  text-align: center;
+
+  margin-left: -0.08em;
+  margin-right: -0.08em;
+  padding-left: 9em;
+  padding-right: 9em;
+  padding-bottom: 0.07em;
+}
+
+#t1 {
+  position: absolute;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(138, 102, 102);
+  font-size: 22px;
+  word-spacing: 0.2cm;
+  left: 400px;
+}
+
+#photo {
+  display: inline;
+  flex-direction: column;
+  position: absolute;
+  left: 10px;
+  align-items: center;
+
+  padding: 200px 250px;
+
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+  -webkit-transition: width 2s;
+
+  margin: 1px 1px 10px 10px;
+}
+
+#mum,
+#bro,
+#piggo,
+#ss,
+#us3,
+#mirror3,
+#jioti {
+  width: 450px;
+  height: 600px;
+}
+#pm {
+  width: 1000px;
+  height: 600px;
+}
+
+#jioti {
+  position: relative;
+  left: 280px;
+}
+
+#bro:hover {
+  transition: 0.7s;
+  transform: scale(1.25);
+  border-style: solid;
+  border-color: rgb(138, 102, 102);
+  border-width: 0.15cm;
+}
+#mum:hover {
+  transition: 0.7s;
+  transform: scale(1.25);
+  border-style: solid;
+  border-color: rgb(138, 102, 102);
+  border-width: 0.15cm;
+}
+
+#piggo:hover {
+  transition: 0.7s;
+  transform: scale(1.25);
+  border-style: solid;
+  border-color: rgb(138, 102, 102);
+  border-width: 0.15cm;
+}
+
+#ss:hover {
+  transition: 0.7s;
+  transform: scale(1.25);
+  border-style: solid;
+  border-color: rgb(138, 102, 102);
+  border-width: 0.15cm;
+}
+
+#us3:hover {
+  transition: 0.7s;
+  transform: scale(1.25);
+  border-style: solid;
+  border-color: rgb(138, 102, 102);
+  border-width: 0.15cm;
+}
+
+#mirror3:hover {
+  transition: 0.7s;
+  transform: scale(1.25);
+  border-style: solid;
+  border-color: rgb(138, 102, 102);
+  border-width: 0.15cm;
+}
+
+#jioti:hover {
+  transition: 0.7s;
+  transform: scale(1.25);
+  border-style: solid;
+  border-color: rgb(138, 102, 102);
+  border-width: 0.15cm;
+}
+
+#pm:hover {
+  transition: 0.7s;
+  transform: scale(1.25);
+  border-style: solid;
+  border-color: rgb(138, 102, 102);
+  border-width: 0.15cm;
+}
+
+#footer {
+  position: absolute;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(138, 102, 102);
+  font-size: 22px;
+  word-spacing: 3%;
+  top: 4000px;
+  left: 500px;
+}
+
+#fvrt {
+  color: red;
+  font-size: 18px;
+}
+
+#tm {
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  left: 670px;
+  top: 4200px;
+}
+a,
+a:focus,
+a:active {
+  color: inherit;
+  text-decoration: underline solid red;
+  transition: text-decoration 1s ease;
+  display: block;
+  transition: 0.25s ease-out;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+a:hover {
+  transition: 300ms;
+  border-bottom: 1px solid transparent;
+}
+.un {
+  display: inline-block;
+}
+
+.un::after {
+  content: "";
+  width: 0px;
+  height: 1px;
+  display: block;
+}
+
+.un:hover::after {
+  width: 100%;
+  color: red;
+}
+
+#techie {
+  color: rgb(110, 77, 15);
+  font-size: 40px;
+  position: absolute;
+  left: 500px;
+  top: 20px;
+  text-decoration-line: underline;
+}
+
+#techie:hover {
+  transition: 0.7s;
+  transform: scale(1.25);
+}
+
+#pfp {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  position: absolute;
+  left: 650px;
+  top: 100px;
+}
+
+#pfp:hover {
+  transition: 0.7s;
+  transform: scale(1.25);
+}
+
+#hi {
+  background-color: #fff6ea;
+  width: 1450px;
+  height: 200px;
+  position: absolute;
+  top: 300px;
+
+  color: rgb(110, 77, 15);
+  font-size: 40px;
+}
+
+#hi:hover {
+  transition: 0.7s;
+  transform: scale(1.25);
+}
+
+#intro {
+  font-size: 20px;
+  position: absolute;
+  left: 500px;
+}
+#achieve {
+  width: 1450px;
+  height: 200px;
+  position: absolute;
+  top: 570px;
+
+  color: rgb(110, 77, 15);
+  font-size: 40px;
+}
+
+#achieve:hover {
+  transition: 0.7s;
+  transform: scale(1.25);
+}
+#grades {
+  font-size: 20px;
+  position: absolute;
+  left: 430px;
+}
+
+#skill {
+  background-color: #fff6ea;
+  width: 1450px;
+  height: 230px;
+  position: absolute;
+  top: 870px;
+
+  color: rgb(110, 77, 15);
+  font-size: 40px;
+}
+#skill:hover {
+  transition: 0.7s;
+  transform: scale(1.25);
+}
+
+#skills {
+  font-size: 20px;
+  position: absolute;
+  left: 430px;
+}
+
+#hobby {
+  width: 1450px;
+  height: 230px;
+  position: absolute;
+  top: 1140px;
+  color: rgb(110, 77, 15);
+  font-size: 40px;
+}
+#hobby:hover {
+  transition: 0.7s;
+  transform: scale(1.25);
+}
+
+#hobb {
+  font-size: 20px;
+  position: absolute;
+  left: 450px;
+}
+
+#connection {
+  background-color: #fff6ea;
+  width: 1450px;
+  height: 70px;
+  position: absolute;
+  top: 1460px;
+  color: rgb(110, 77, 15);
+  font-size: 40px;
+}
+
+#social {
+  background-color: #fff6ea;
+  width: 1450px;
+  height: 200px;
+  position: absolute;
+  top: 1530px;
+}
+
+#connection:hover {
+  transition: 0.7s;
+  transform: scale(1.25);
+}
+#ig {
+  position: absolute;
+  left: 300px;
+  top: 30px;
+}
+
+#fb {
+  position: absolute;
+  left: 700px;
+  top: 30px;
+}
+
+#li {
+  position: absolute;
+  left: 1100px;
+  top: 30px;
+}
+
+#ig:hover {
+  transition: 0.7s;
+  transform: scale(1.25);
+}
+
+#fb:hover {
+  transition: 0.7s;
+  transform: scale(1.25);
+}
+
+#li:hover {
+  transition: 0.7s;
+  transform: scale(1.25);
+}
+
+#fb,
+#ig,
+#li {
+  border-radius: 50%;
+}
+
+#q {
+  color: white;
+  font-size: 20px;
+  border-radius: 25%;
+  border-color: white;
+  border-style: solid;
+  border-width: 0.05cm;
+  position: absolute;
+  left: 80px;
+  top: 70px;
+  word-spacing: 0.1cm;
+}
+#q:hover {
+  transition: 0.7s;
+  transform: scale(1.05);
+}
+#spark {
+  position: absolute;
+  top: 320px;
+  color: white;
+  left: 650px;
+  font-size: 0.45cm;
+}
+
+#yesss {
+  position: absolute;
+  top: 500px;
+  left: 30px;
+}
+
+#piic {
+  background-image: linear-gradient(rgba(4, 3, 6, 0.2), rgba(4, 3, 6, 0.2));
+}
+
+#sssss {
+  position: absolute;
+  top: 780px;
+  left: 700px;
+  color: white;
+}
+
+#creedit {
+  font-size: 0.6cm;
+  color: blueviolet;
+  position: absolute;
+  top: 620px;
+  left: 330px;
+  word-spacing: 0.1cm;
+}
+
+#rii {
+  font-size: 0.8cm;
+  color: RED;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+
+#giit {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 680px;
+  left: 715px;
+}
+
+#giit:hover {
+  transition: 0.7s;
+  transform: scale(1.25);
+}
